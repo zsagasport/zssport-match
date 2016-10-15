@@ -1,0 +1,22 @@
+{
+  "name": "zssport-match",
+  "version": "1.0.0",
+  "description": "A match component represents a sport match like the following data:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsagasport/zssport-match.git"
+  },
+  "keywords": [
+    "zssport"
+  ],
+  "author": "zsagia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsagasport/zssport-match/issues"
+  },
+  "homepage": "https://github.com/zsagasport/zssport-match#readme"
+}
