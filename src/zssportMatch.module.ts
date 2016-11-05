@@ -1,12 +1,13 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {HelloWorld} from './helloWorld.component';
+
+import {MatchComponent} from './match.component';
 
 @NgModule({
   declarations: [
-    HelloWorld
+    MatchComponent
   ],
   imports: [CommonModule],
-  exports: [HelloWorld]
+  exports: [MatchComponent]
 })
 export class ZssportMatchModule {}
