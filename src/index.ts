@@ -1,1 +1,1 @@
-export * from './zssportMatch.module';
+export * from './match.module';

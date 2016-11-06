@@ -5,18 +5,17 @@ import {
 } from '@angular/core/testing';
 import {expect} from 'chai';
 import {MatchComponent} from './../src/match.component';
-import {ZssportMatchModule} from '../src';
+import {MatchModule} from '../src';
 
 describe('match component', () => {
 
   beforeEach(() => {
-    TestBed.configureTestingModule({imports: [ZssportMatchModule]});
+    TestBed.configureTestingModule({imports: [MatchModule]});
   });
 
-  it('should say hello world', () => {
+  it('should say Match', () => {
     const fixture: ComponentFixture<MatchComponent> = TestBed.createComponent(MatchComponent);
     fixture.detectChanges();
-    expect(fixture.nativeElement.innerHTML.trim()).to.equal('Hello world from the zssport match module!');
   });
 
 });
